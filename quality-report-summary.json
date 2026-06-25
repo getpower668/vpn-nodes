@@ -1,0 +1,48 @@
+﻿{
+    "GeneratedAt":  "2026-06-25T17:26:12.6884473+08:00",
+    "DurationMs":  54981,
+    "InputFile":  "E:\\VPN\\outputs\\free-nodes-combined.txt",
+    "Total":  906,
+    "Parsed":  906,
+    "Unparseable":  0,
+    "Alive":  318,
+    "Dead":  588,
+    "ByProtocol":  [
+                       {
+                           "Proto":  "ss",
+                           "Total":  75,
+                           "Alive":  15,
+                           "Dead":  60,
+                           "MedianRtt":  255,
+                           "MinRtt":  29,
+                           "MaxRtt":  1358
+                       },
+                       {
+                           "Proto":  "trojan",
+                           "Total":  49,
+                           "Alive":  28,
+                           "Dead":  21,
+                           "MedianRtt":  236,
+                           "MinRtt":  38,
+                           "MaxRtt":  355
+                       },
+                       {
+                           "Proto":  "vless",
+                           "Total":  675,
+                           "Alive":  248,
+                           "Dead":  427,
+                           "MedianRtt":  234,
+                           "MinRtt":  37,
+                           "MaxRtt":  1334
+                       },
+                       {
+                           "Proto":  "vmess",
+                           "Total":  107,
+                           "Alive":  27,
+                           "Dead":  80,
+                           "MedianRtt":  207,
+                           "MinRtt":  84,
+                           "MaxRtt":  1197
+                       }
+                   ]
+}
