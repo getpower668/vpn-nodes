@@ -1,0 +1,116 @@
+[1/5] fetching sources...
+  [OK]   Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-HK.txt  (4612 bytes)
+  [OK]   Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-JP.txt  (1672 bytes)
+  [OK]   Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-US.txt  (6088 bytes)
+  [FAIL] Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-GB.txt  : 远程服务器返回错误: (404) 未找到。
+  [FAIL] Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-DE.txt  : 远程服务器返回错误: (404) 未找到。
+  [OK]   Au1rxx/free-vpn-subscriptions@main/output/by-country/v2ray-base64-CA.txt  (784 bytes)
+  [OK]   HakurouKen/free-node@main/public  (1692 bytes)
+  [OK]   Barabama/FreeNodes@main/nodes/yudou66.txt  (70485 bytes)
+  [OK]   Barabama/FreeNodes@main/nodes/blues.txt  (39361 bytes)
+  [OK]   miladtahanian/V2RayCFGDumper@main/sub.txt  (20911 bytes)
+  [OK]   ermaozi/get_subscribe@main/subscribe/v2ray.txt  (6407 bytes)
+  [OK]   xiaoji235/airport-free@main/v2ray.txt  (271262 bytes)
+  [OK]   xiaoji235/airport-free@main/v2ray/clashnodecc.txt  (302535 bytes)
+  [OK]   xiaoji235/airport-free@main/v2ray/v2rayshare.txt  (4386 bytes)
+  [OK]   mahdibland/V2RayAggregator@master/sub/sub_merge.txt  (1479435 bytes)
+
+[2/5] merging & dedup...
+  raw: 7545    unique: 7015
+    vmess     2877
+    ss        2007
+    vless     1365
+    trojan     766
+
+[3/5] probing nodes (TCP + RTT)...
+[probe] parsing 7015 URLs...
+[probe] parsed 7014, unparseable: 1
+[probe] probing 7014 nodes (concurrency=50, timeout=3000ms, probes/node=2)...
+  100 / 7014
+  200 / 7014
+  300 / 7014
+  400 / 7014
+  500 / 7014
+  600 / 7014
+  700 / 7014
+  800 / 7014
+  900 / 7014
+  1000 / 7014
+  1100 / 7014
+  1200 / 7014
+  1300 / 7014
+  1400 / 7014
+  1500 / 7014
+  1600 / 7014
+  1700 / 7014
+  1800 / 7014
+  1900 / 7014
+  2000 / 7014
+  2100 / 7014
+  2200 / 7014
+  2300 / 7014
+  2400 / 7014
+  2500 / 7014
+  2600 / 7014
+  2700 / 7014
+  2800 / 7014
+  2900 / 7014
+  3000 / 7014
+  3100 / 7014
+  3200 / 7014
+  3300 / 7014
+  3400 / 7014
+  3500 / 7014
+  3600 / 7014
+  3700 / 7014
+  3800 / 7014
+  3900 / 7014
+  4000 / 7014
+  4100 / 7014
+  4200 / 7014
+  4300 / 7014
+  4400 / 7014
+  4500 / 7014
+  4600 / 7014
+  4700 / 7014
+  4800 / 7014
+  4900 / 7014
+  5000 / 7014
+  5100 / 7014
+  5200 / 7014
+  5300 / 7014
+  5400 / 7014
+  5500 / 7014
+  5600 / 7014
+  5700 / 7014
+  5800 / 7014
+  5900 / 7014
+  6000 / 7014
+  6100 / 7014
+  6200 / 7014
+  6300 / 7014
+  6400 / 7014
+  6500 / 7014
+  6600 / 7014
+  6700 / 7014
+  6800 / 7014
+  6900 / 7014
+  7000 / 7014
+  7014 / 7014
+[probe] done in 593849ms
+[probe] wrote E:\VPN\outputs\quality-report.json
+[probe] wrote E:\VPN\outputs\quality-report-summary.json
+[probe] appended E:\VPN\outputs\quality-history.jsonl
+
+====== probe summary ======
+  input: 7015    parsed: 7014    unparseable: 1
+  alive: 2019    dead: 4995    duration: 594s
+
+  by protocol:
+    ss       total=2007  alive=  54  median= 245ms  min=  25ms  max=1394ms
+    trojan   total= 765  alive= 228  median= 214ms  min=  37ms  max=1372ms
+    vless    total=1365  alive= 555  median= 217ms  min=  39ms  max=1235ms
+    vmess    total=2877  alive=1182  median= 204ms  min=  27ms  max=2273ms
+
+  probe failed, abort
+RC=1 
