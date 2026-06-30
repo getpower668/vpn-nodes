@@ -43,9 +43,25 @@
 
 ### 客户端 URL 模板
 
-- 主订阅 (现有 APK 默认): `https://cdn.jsdelivr.net/gh/getpower668/vpn-nodes@main/free-nodes-subscription.b64`
-- 东南亚专用: `https://cdn.jsdelivr.net/gh/getpower668/vpn-nodes@main/free-nodes-sea.b64`
-- 亚洲综合: `https://cdn.jsdelivr.net/gh/getpower668/vpn-nodes@main/free-nodes-asia.b64`
+⚠️ 国内 jsdelivr 经常被 GFW RST, 拉不到数据时请改用 GitHub raw 直连 + gh-proxy 镜像.
+
+**主订阅 (推荐 gh-proxy, 国内 100% 可达):**
+```
+https://gh-proxy.com/raw.githubusercontent.com/getpower668/vpn-nodes/main/free-nodes-subscription.b64
+```
+**备用 1 - GitHub raw 直连 (国外网络):**
+```
+https://raw.githubusercontent.com/getpower668/vpn-nodes/main/free-nodes-subscription.b64
+```
+**备用 2 - jsdelivr (国内有时被 GFW RST):**
+```
+https://cdn.jsdelivr.net/gh/getpower668/vpn-nodes@main/free-nodes-subscription.b64
+```
+
+**地区桶 (同样替换前缀):**
+- 东南亚: `https://gh-proxy.com/raw.githubusercontent.com/getpower668/vpn-nodes/main/free-nodes-sea.b64`
+- 亚洲综合: `https://gh-proxy.com/raw.githubusercontent.com/getpower668/vpn-nodes/main/free-nodes-asia.b64`
+- 东北亚: `https://gh-proxy.com/raw.githubusercontent.com/getpower668/vpn-nodes/main/free-nodes-neasia.b64`
 
 ## 参数 (refresh-nodes.ps1)
 
