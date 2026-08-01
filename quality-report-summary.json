@@ -1,66 +1,66 @@
 ﻿{
-    "GeneratedAt":  "2026-08-02T00:19:09.1992905+08:00",
-    "DurationMs":  470312,
+    "GeneratedAt":  "2026-08-02T01:07:18.0750275+08:00",
+    "DurationMs":  446817,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
-    "Total":  18840,
-    "Parsed":  18840,
-    "Unparseable":  21,
-    "Alive":  72,
-    "Dead":  18768,
+    "Total":  18739,
+    "Parsed":  18739,
+    "Unparseable":  22,
+    "Alive":  2887,
+    "Dead":  15852,
     "ByProtocol":  [
                        {
                            "Proto":  "hy2",
                            "Total":  153,
-                           "Alive":  5,
-                           "Dead":  148,
-                           "MedianRtt":  520,
-                           "MinRtt":  308,
-                           "MaxRtt":  533
+                           "Alive":  8,
+                           "Dead":  145,
+                           "MedianRtt":  560,
+                           "MinRtt":  257,
+                           "MaxRtt":  671
                        },
                        {
                            "Proto":  "ss",
-                           "Total":  3084,
-                           "Alive":  67,
-                           "Dead":  3017,
-                           "MedianRtt":  251,
-                           "MinRtt":  32,
-                           "MaxRtt":  1967
+                           "Total":  3114,
+                           "Alive":  76,
+                           "Dead":  3038,
+                           "MedianRtt":  261,
+                           "MinRtt":  39,
+                           "MaxRtt":  2493
                        },
                        {
                            "Proto":  "trojan",
-                           "Total":  1963,
-                           "Alive":  0,
-                           "Dead":  1963,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
+                           "Total":  1953,
+                           "Alive":  222,
+                           "Dead":  1731,
+                           "MedianRtt":  1740,
+                           "MinRtt":  461,
+                           "MaxRtt":  2963
                        },
                        {
                            "Proto":  "tuic",
-                           "Total":  4,
+                           "Total":  5,
                            "Alive":  0,
-                           "Dead":  4,
+                           "Dead":  5,
                            "MedianRtt":  null,
                            "MinRtt":  null,
                            "MaxRtt":  null
                        },
                        {
                            "Proto":  "vless",
-                           "Total":  10142,
-                           "Alive":  0,
-                           "Dead":  10142,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
+                           "Total":  10143,
+                           "Alive":  1543,
+                           "Dead":  8600,
+                           "MedianRtt":  284,
+                           "MinRtt":  51,
+                           "MaxRtt":  3002
                        },
                        {
                            "Proto":  "vmess",
-                           "Total":  3494,
-                           "Alive":  0,
-                           "Dead":  3494,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
+                           "Total":  3371,
+                           "Alive":  1038,
+                           "Dead":  2333,
+                           "MedianRtt":  242,
+                           "MinRtt":  28,
+                           "MaxRtt":  2936
                        }
                    ]
 }
