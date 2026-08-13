@@ -1,39 +1,39 @@
 ﻿{
-    "GeneratedAt":  "2026-08-13T14:08:23.0982484+08:00",
-    "DurationMs":  606280,
+    "GeneratedAt":  "2026-08-13T14:10:36.6514245+08:00",
+    "DurationMs":  618867,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
     "Total":  23538,
     "Parsed":  23538,
     "Unparseable":  93,
-    "Alive":  6359,
-    "Dead":  17179,
+    "Alive":  5077,
+    "Dead":  18461,
     "ByProtocol":  [
                        {
                            "Proto":  "hy2",
                            "Total":  317,
                            "Alive":  14,
                            "Dead":  303,
-                           "MedianRtt":  284,
-                           "MinRtt":  215,
-                           "MaxRtt":  522
+                           "MedianRtt":  298,
+                           "MinRtt":  227,
+                           "MaxRtt":  658
                        },
                        {
                            "Proto":  "ss",
                            "Total":  3614,
                            "Alive":  107,
                            "Dead":  3507,
-                           "MedianRtt":  216,
-                           "MinRtt":  35,
-                           "MaxRtt":  1312
+                           "MedianRtt":  235,
+                           "MinRtt":  44,
+                           "MaxRtt":  2457
                        },
                        {
                            "Proto":  "trojan",
                            "Total":  3107,
-                           "Alive":  817,
-                           "Dead":  2290,
-                           "MedianRtt":  225,
-                           "MinRtt":  44,
-                           "MaxRtt":  2286
+                           "Alive":  569,
+                           "Dead":  2538,
+                           "MedianRtt":  254,
+                           "MinRtt":  34,
+                           "MaxRtt":  2763
                        },
                        {
                            "Proto":  "tuic",
@@ -47,20 +47,20 @@
                        {
                            "Proto":  "vless",
                            "Total":  12686,
-                           "Alive":  4466,
-                           "Dead":  8220,
-                           "MedianRtt":  270,
-                           "MinRtt":  29,
-                           "MaxRtt":  2948
+                           "Alive":  3571,
+                           "Dead":  9115,
+                           "MedianRtt":  308,
+                           "MinRtt":  30,
+                           "MaxRtt":  2838
                        },
                        {
                            "Proto":  "vmess",
                            "Total":  3805,
-                           "Alive":  955,
-                           "Dead":  2850,
-                           "MedianRtt":  306,
-                           "MinRtt":  34,
-                           "MaxRtt":  2988
+                           "Alive":  816,
+                           "Dead":  2989,
+                           "MedianRtt":  334,
+                           "MinRtt":  36,
+                           "MaxRtt":  3226
                        }
                    ]
 }
