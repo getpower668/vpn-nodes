@@ -1,66 +1,66 @@
 ﻿{
-    "GeneratedAt":  "2026-08-17T23:19:01.3872387+08:00",
-    "DurationMs":  430187,
+    "GeneratedAt":  "2026-08-18T02:17:39.9801652+08:00",
+    "DurationMs":  407398,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
-    "Total":  24186,
-    "Parsed":  24186,
+    "Total":  23639,
+    "Parsed":  23639,
     "Unparseable":  88,
-    "Alive":  4958,
-    "Dead":  19228,
+    "Alive":  5139,
+    "Dead":  18500,
     "ByProtocol":  [
                        {
                            "Proto":  "hy2",
-                           "Total":  252,
-                           "Alive":  8,
-                           "Dead":  244,
-                           "MedianRtt":  309,
-                           "MinRtt":  230,
-                           "MaxRtt":  557
+                           "Total":  224,
+                           "Alive":  9,
+                           "Dead":  215,
+                           "MedianRtt":  327,
+                           "MinRtt":  236,
+                           "MaxRtt":  393
                        },
                        {
                            "Proto":  "ss",
-                           "Total":  3263,
-                           "Alive":  157,
-                           "Dead":  3106,
+                           "Total":  3265,
+                           "Alive":  135,
+                           "Dead":  3130,
                            "MedianRtt":  233,
-                           "MinRtt":  37,
-                           "MaxRtt":  1418
+                           "MinRtt":  47,
+                           "MaxRtt":  435
                        },
                        {
                            "Proto":  "trojan",
-                           "Total":  4929,
-                           "Alive":  617,
-                           "Dead":  4312,
-                           "MedianRtt":  203,
-                           "MinRtt":  32,
-                           "MaxRtt":  2239
+                           "Total":  3963,
+                           "Alive":  600,
+                           "Dead":  3363,
+                           "MedianRtt":  202,
+                           "MinRtt":  33,
+                           "MaxRtt":  2274
                        },
                        {
                            "Proto":  "tuic",
-                           "Total":  6,
-                           "Alive":  0,
+                           "Total":  9,
+                           "Alive":  3,
                            "Dead":  6,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
+                           "MedianRtt":  243,
+                           "MinRtt":  240,
+                           "MaxRtt":  1244
                        },
                        {
                            "Proto":  "vless",
-                           "Total":  12963,
-                           "Alive":  3716,
-                           "Dead":  9247,
-                           "MedianRtt":  220,
-                           "MinRtt":  29,
-                           "MaxRtt":  2759
+                           "Total":  13428,
+                           "Alive":  3905,
+                           "Dead":  9523,
+                           "MedianRtt":  212,
+                           "MinRtt":  27,
+                           "MaxRtt":  2981
                        },
                        {
                            "Proto":  "vmess",
-                           "Total":  2773,
-                           "Alive":  460,
-                           "Dead":  2313,
-                           "MedianRtt":  811,
-                           "MinRtt":  36,
-                           "MaxRtt":  2902
+                           "Total":  2750,
+                           "Alive":  487,
+                           "Dead":  2263,
+                           "MedianRtt":  284,
+                           "MinRtt":  28,
+                           "MaxRtt":  2575
                        }
                    ]
 }
