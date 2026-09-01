@@ -1,7 +1,7 @@
 ﻿{
-    "GeneratedAt":  "2026-09-01T10:08:08.0707220+08:00",
+    "GeneratedAt":  "2026-09-01T11:06:11.5535565+08:00",
     "InputReport":  "E:\\VPN\\outputs\\quality-report.json",
-    "TotalAlive":  5069,
+    "TotalAlive":  5026,
     "PerRegionCap":  80,
     "RttCaps":  {
                     "OC":  450,
@@ -37,7 +37,7 @@
                      },
                      {
                          "Bucket":  "oc",
-                         "Count":  17
+                         "Count":  18
                      },
                      {
                          "Bucket":  "other",
@@ -49,76 +49,76 @@
                      },
                      {
                          "Bucket":  "sea",
-                         "Count":  75
+                         "Count":  69
                      },
                      {
                          "Bucket":  "asia",
-                         "Count":  113
+                         "Count":  115
                      }
                  ],
     "ByRegion":  [
                      {
                          "Region":  "EU",
-                         "Count":  1768,
-                         "MedianRtt":  230,
-                         "MinRtt":  34,
-                         "MaxRtt":  2626
+                         "Count":  1753,
+                         "MedianRtt":  235,
+                         "MinRtt":  29,
+                         "MaxRtt":  2938
                      },
                      {
                          "Region":  "CF",
-                         "Count":  1618,
-                         "MedianRtt":  215,
-                         "MinRtt":  34,
-                         "MaxRtt":  2714
+                         "Count":  1607,
+                         "MedianRtt":  220,
+                         "MinRtt":  31,
+                         "MaxRtt":  2751
                      },
                      {
                          "Region":  "NA",
-                         "Count":  955,
-                         "MedianRtt":  221,
-                         "MinRtt":  31,
-                         "MaxRtt":  2989
+                         "Count":  1007,
+                         "MedianRtt":  234,
+                         "MinRtt":  28,
+                         "MaxRtt":  2429
                      },
                      {
                          "Region":  "UNKNOWN",
-                         "Count":  274,
-                         "MedianRtt":  223,
-                         "MinRtt":  24,
-                         "MaxRtt":  1594
-                     },
-                     {
-                         "Region":  "NEASIA",
-                         "Count":  185,
-                         "MedianRtt":  100,
-                         "MinRtt":  31,
-                         "MaxRtt":  1230
+                         "Count":  244,
+                         "MedianRtt":  256,
+                         "MinRtt":  18,
+                         "MaxRtt":  2767
                      },
                      {
                          "Region":  "ME",
-                         "Count":  147,
+                         "Count":  150,
                          "MedianRtt":  287,
-                         "MinRtt":  168,
-                         "MaxRtt":  2869
+                         "MinRtt":  181,
+                         "MaxRtt":  2494
+                     },
+                     {
+                         "Region":  "NEASIA",
+                         "Count":  139,
+                         "MedianRtt":  107,
+                         "MinRtt":  28,
+                         "MaxRtt":  1484
                      },
                      {
                          "Region":  "SEA",
-                         "Count":  99,
-                         "MedianRtt":  243,
-                         "MinRtt":  35,
-                         "MaxRtt":  1356
+                         "Count":  94,
+                         "MedianRtt":  232,
+                         "MinRtt":  36,
+                         "MaxRtt":  1543
                      },
                      {
                          "Region":  "OC",
-                         "Count":  20,
-                         "MedianRtt":  262,
-                         "MinRtt":  87,
-                         "MaxRtt":  823
+                         "Count":  28,
+                         "MedianRtt":  306,
+                         "MinRtt":  174,
+                         "MaxRtt":  1821
                      },
                      {
                          "Region":  "SAASIA",
-                         "Count":  3,
+                         "Count":  4,
                          "MedianRtt":  136,
-                         "MinRtt":  132,
-                         "MaxRtt":  153
+                         "MinRtt":  133,
+                         "MaxRtt":  1215
                      }
                  ]
 }
