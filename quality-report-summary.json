@@ -1,66 +1,119 @@
 ﻿{
-    "GeneratedAt":  "2026-11-20T04:09:58.9737103+08:00",
-    "DurationMs":  520958,
+    "GeneratedAt":  "2026-11-22T09:43:40.7268599+08:00",
+    "DurationMs":  261681,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
-    "Total":  30274,
-    "Parsed":  30274,
-    "Unparseable":  135,
-    "Alive":  6715,
-    "Dead":  23559,
+    "ProbeMode":  "protocol-level",
+    "Total":  20726,
+    "Alive":  2234,
+    "Dead":  18492,
     "ByProtocol":  [
                        {
-                           "Proto":  "hy2",
-                           "Total":  230,
-                           "Alive":  3,
-                           "Dead":  227,
-                           "MedianRtt":  243,
-                           "MinRtt":  226,
-                           "MaxRtt":  285
+                           "Proto":  "hysteria2",
+                           "Total":  259,
+                           "Alive":  0,
+                           "Dead":  259,
+                           "MedianRtt":  null,
+                           "MinRtt":  null,
+                           "MaxRtt":  null
                        },
                        {
                            "Proto":  "ss",
-                           "Total":  5281,
-                           "Alive":  169,
-                           "Dead":  5112,
-                           "MedianRtt":  296,
-                           "MinRtt":  31,
-                           "MaxRtt":  2292
+                           "Total":  3969,
+                           "Alive":  125,
+                           "Dead":  3844,
+                           "MedianRtt":  337,
+                           "MinRtt":  116,
+                           "MaxRtt":  15045
                        },
                        {
                            "Proto":  "trojan",
-                           "Total":  2895,
-                           "Alive":  1175,
-                           "Dead":  1720,
-                           "MedianRtt":  201,
-                           "MinRtt":  32,
-                           "MaxRtt":  2292
+                           "Total":  1831,
+                           "Alive":  128,
+                           "Dead":  1703,
+                           "MedianRtt":  300,
+                           "MinRtt":  72,
+                           "MaxRtt":  3615
                        },
                        {
                            "Proto":  "tuic",
-                           "Total":  5,
+                           "Total":  2,
                            "Alive":  0,
-                           "Dead":  5,
+                           "Dead":  2,
                            "MedianRtt":  null,
                            "MinRtt":  null,
                            "MaxRtt":  null
                        },
                        {
                            "Proto":  "vless",
-                           "Total":  17936,
-                           "Alive":  4331,
-                           "Dead":  13605,
-                           "MedianRtt":  232,
-                           "MinRtt":  29,
-                           "MaxRtt":  2920
+                           "Total":  7742,
+                           "Alive":  1020,
+                           "Dead":  6722,
+                           "MedianRtt":  276,
+                           "MinRtt":  49,
+                           "MaxRtt":  4728
                        },
                        {
                            "Proto":  "vmess",
-                           "Total":  3927,
-                           "Alive":  1037,
-                           "Dead":  2890,
-                           "MedianRtt":  203,
-                           "MinRtt":  27,
-                           "MaxRtt":  2583
+                           "Total":  6923,
+                           "Alive":  961,
+                           "Dead":  5962,
+                           "MedianRtt":  237,
+                           "MinRtt":  33,
+                           "MaxRtt":  6116
                        }
-                   ]
+                   ],
+    "ByVerdict":  [
+                      {
+                          "Verdict":  "timeout",
+                          "Count":  14009
+                      },
+                      {
+                          "Verdict":  "tcp_fail",
+                          "Count":  2308
+                      },
+                      {
+                          "Verdict":  "real_server",
+                          "Count":  1128
+                      },
+                      {
+                          "Verdict":  "gfw_rst",
+                          "Count":  1068
+                      },
+                      {
+                          "Verdict":  "bare_plain",
+                          "Count":  861
+                      },
+                      {
+                          "Verdict":  "tls_alert",
+                          "Count":  467
+                      },
+                      {
+                          "Verdict":  "cdn_edge",
+                          "Count":  379
+                      },
+                      {
+                          "Verdict":  "udp_no_reply",
+                          "Count":  241
+                      },
+                      {
+                          "Verdict":  "ss_unverified",
+                          "Count":  125
+                      },
+                      {
+                          "Verdict":  "tls_ok_nosan",
+                          "Count":  66
+                      },
+                      {
+                          "Verdict":  "tls_ok_nosni",
+                          "Count":  54
+                      },
+                      {
+                          "Verdict":  "udp_closed",
+                          "Count":  12
+                      },
+                      {
+                          "Verdict":  "udp_fail",
+                          "Count":  8
+                      }
+                  ]
 }
