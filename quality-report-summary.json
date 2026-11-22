@@ -1,38 +1,38 @@
 ﻿{
-    "GeneratedAt":  "2026-11-22T09:43:40.7268599+08:00",
-    "DurationMs":  261681,
+    "GeneratedAt":  "2026-11-23T04:05:14.0748297+08:00",
+    "DurationMs":  248701,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
     "ProbeMode":  "protocol-level",
-    "Total":  20726,
-    "Alive":  2234,
-    "Dead":  18492,
+    "Total":  21044,
+    "Alive":  2264,
+    "Dead":  18780,
     "ByProtocol":  [
                        {
                            "Proto":  "hysteria2",
-                           "Total":  259,
-                           "Alive":  0,
-                           "Dead":  259,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
+                           "Total":  279,
+                           "Alive":  1,
+                           "Dead":  278,
+                           "MedianRtt":  294,
+                           "MinRtt":  294,
+                           "MaxRtt":  294
                        },
                        {
                            "Proto":  "ss",
-                           "Total":  3969,
-                           "Alive":  125,
-                           "Dead":  3844,
-                           "MedianRtt":  337,
-                           "MinRtt":  116,
-                           "MaxRtt":  15045
+                           "Total":  4024,
+                           "Alive":  128,
+                           "Dead":  3896,
+                           "MedianRtt":  310,
+                           "MinRtt":  76,
+                           "MaxRtt":  8015
                        },
                        {
                            "Proto":  "trojan",
-                           "Total":  1831,
-                           "Alive":  128,
-                           "Dead":  1703,
-                           "MedianRtt":  300,
-                           "MinRtt":  72,
-                           "MaxRtt":  3615
+                           "Total":  1803,
+                           "Alive":  126,
+                           "Dead":  1677,
+                           "MedianRtt":  233,
+                           "MinRtt":  61,
+                           "MaxRtt":  3924
                        },
                        {
                            "Proto":  "tuic",
@@ -45,75 +45,79 @@
                        },
                        {
                            "Proto":  "vless",
-                           "Total":  7742,
-                           "Alive":  1020,
-                           "Dead":  6722,
-                           "MedianRtt":  276,
-                           "MinRtt":  49,
-                           "MaxRtt":  4728
+                           "Total":  7947,
+                           "Alive":  1015,
+                           "Dead":  6932,
+                           "MedianRtt":  249,
+                           "MinRtt":  33,
+                           "MaxRtt":  4811
                        },
                        {
                            "Proto":  "vmess",
-                           "Total":  6923,
-                           "Alive":  961,
-                           "Dead":  5962,
-                           "MedianRtt":  237,
-                           "MinRtt":  33,
-                           "MaxRtt":  6116
+                           "Total":  6989,
+                           "Alive":  994,
+                           "Dead":  5995,
+                           "MedianRtt":  214,
+                           "MinRtt":  23,
+                           "MaxRtt":  4271
                        }
                    ],
     "ByVerdict":  [
                       {
                           "Verdict":  "timeout",
-                          "Count":  14009
+                          "Count":  13631
                       },
                       {
                           "Verdict":  "tcp_fail",
-                          "Count":  2308
-                      },
-                      {
-                          "Verdict":  "real_server",
-                          "Count":  1128
+                          "Count":  2838
                       },
                       {
                           "Verdict":  "gfw_rst",
-                          "Count":  1068
+                          "Count":  1148
+                      },
+                      {
+                          "Verdict":  "real_server",
+                          "Count":  1116
                       },
                       {
                           "Verdict":  "bare_plain",
-                          "Count":  861
+                          "Count":  878
                       },
                       {
                           "Verdict":  "tls_alert",
-                          "Count":  467
+                          "Count":  508
                       },
                       {
                           "Verdict":  "cdn_edge",
-                          "Count":  379
+                          "Count":  375
                       },
                       {
                           "Verdict":  "udp_no_reply",
-                          "Count":  241
+                          "Count":  261
                       },
                       {
                           "Verdict":  "ss_unverified",
-                          "Count":  125
-                      },
-                      {
-                          "Verdict":  "tls_ok_nosan",
-                          "Count":  66
+                          "Count":  128
                       },
                       {
                           "Verdict":  "tls_ok_nosni",
-                          "Count":  54
+                          "Count":  79
                       },
                       {
-                          "Verdict":  "udp_closed",
-                          "Count":  12
+                          "Verdict":  "tls_ok_nosan",
+                          "Count":  62
                       },
                       {
                           "Verdict":  "udp_fail",
+                          "Count":  11
+                      },
+                      {
+                          "Verdict":  "udp_closed",
                           "Count":  8
+                      },
+                      {
+                          "Verdict":  "quic_ok",
+                          "Count":  1
                       }
                   ]
 }
