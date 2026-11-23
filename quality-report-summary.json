@@ -1,123 +1,119 @@
 ﻿{
-    "GeneratedAt":  "2026-11-23T04:05:14.0748297+08:00",
-    "DurationMs":  248701,
+    "GeneratedAt":  "2026-11-24T04:05:53.0930466+08:00",
+    "DurationMs":  290434,
     "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
     "ProbeMode":  "protocol-level",
-    "Total":  21044,
-    "Alive":  2264,
-    "Dead":  18780,
+    "Total":  21105,
+    "Alive":  1739,
+    "Dead":  19366,
     "ByProtocol":  [
                        {
                            "Proto":  "hysteria2",
-                           "Total":  279,
-                           "Alive":  1,
-                           "Dead":  278,
-                           "MedianRtt":  294,
-                           "MinRtt":  294,
-                           "MaxRtt":  294
+                           "Total":  405,
+                           "Alive":  0,
+                           "Dead":  405,
+                           "MedianRtt":  null,
+                           "MinRtt":  null,
+                           "MaxRtt":  null
                        },
                        {
                            "Proto":  "ss",
-                           "Total":  4024,
-                           "Alive":  128,
-                           "Dead":  3896,
-                           "MedianRtt":  310,
-                           "MinRtt":  76,
-                           "MaxRtt":  8015
+                           "Total":  4377,
+                           "Alive":  153,
+                           "Dead":  4224,
+                           "MedianRtt":  309,
+                           "MinRtt":  94,
+                           "MaxRtt":  14129
                        },
                        {
                            "Proto":  "trojan",
-                           "Total":  1803,
-                           "Alive":  126,
-                           "Dead":  1677,
-                           "MedianRtt":  233,
-                           "MinRtt":  61,
-                           "MaxRtt":  3924
+                           "Total":  1748,
+                           "Alive":  130,
+                           "Dead":  1618,
+                           "MedianRtt":  232,
+                           "MinRtt":  64,
+                           "MaxRtt":  2440
                        },
                        {
                            "Proto":  "tuic",
-                           "Total":  2,
+                           "Total":  1,
                            "Alive":  0,
-                           "Dead":  2,
+                           "Dead":  1,
                            "MedianRtt":  null,
                            "MinRtt":  null,
                            "MaxRtt":  null
                        },
                        {
                            "Proto":  "vless",
-                           "Total":  7947,
-                           "Alive":  1015,
-                           "Dead":  6932,
-                           "MedianRtt":  249,
-                           "MinRtt":  33,
-                           "MaxRtt":  4811
+                           "Total":  7606,
+                           "Alive":  885,
+                           "Dead":  6721,
+                           "MedianRtt":  278,
+                           "MinRtt":  42,
+                           "MaxRtt":  4755
                        },
                        {
                            "Proto":  "vmess",
-                           "Total":  6989,
-                           "Alive":  994,
-                           "Dead":  5995,
-                           "MedianRtt":  214,
-                           "MinRtt":  23,
-                           "MaxRtt":  4271
+                           "Total":  6968,
+                           "Alive":  571,
+                           "Dead":  6397,
+                           "MedianRtt":  211,
+                           "MinRtt":  24,
+                           "MaxRtt":  6016
                        }
                    ],
     "ByVerdict":  [
                       {
                           "Verdict":  "timeout",
-                          "Count":  13631
+                          "Count":  14635
                       },
                       {
                           "Verdict":  "tcp_fail",
-                          "Count":  2838
-                      },
-                      {
-                          "Verdict":  "gfw_rst",
-                          "Count":  1148
+                          "Count":  2653
                       },
                       {
                           "Verdict":  "real_server",
-                          "Count":  1116
+                          "Count":  1065
+                      },
+                      {
+                          "Verdict":  "gfw_rst",
+                          "Count":  896
                       },
                       {
                           "Verdict":  "bare_plain",
-                          "Count":  878
+                          "Count":  414
                       },
                       {
                           "Verdict":  "tls_alert",
-                          "Count":  508
-                      },
-                      {
-                          "Verdict":  "cdn_edge",
-                          "Count":  375
+                          "Count":  408
                       },
                       {
                           "Verdict":  "udp_no_reply",
-                          "Count":  261
+                          "Count":  387
+                      },
+                      {
+                          "Verdict":  "cdn_edge",
+                          "Count":  368
                       },
                       {
                           "Verdict":  "ss_unverified",
-                          "Count":  128
-                      },
-                      {
-                          "Verdict":  "tls_ok_nosni",
-                          "Count":  79
+                          "Count":  153
                       },
                       {
                           "Verdict":  "tls_ok_nosan",
-                          "Count":  62
+                          "Count":  60
+                      },
+                      {
+                          "Verdict":  "tls_ok_nosni",
+                          "Count":  47
                       },
                       {
                           "Verdict":  "udp_fail",
-                          "Count":  11
+                          "Count":  10
                       },
                       {
                           "Verdict":  "udp_closed",
-                          "Count":  8
-                      },
-                      {
-                          "Verdict":  "quic_ok",
-                          "Count":  1
+                          "Count":  9
                       }
                   ]
 }
