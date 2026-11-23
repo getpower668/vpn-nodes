@@ -1,7 +1,7 @@
 ﻿{
-    "GeneratedAt":  "2026-11-23T04:08:38.4203730+08:00",
+    "GeneratedAt":  "2026-11-24T04:11:35.6362470+08:00",
     "InputReport":  "E:\\VPN\\outputs\\quality-report.json",
-    "TotalAlive":  10,
+    "TotalAlive":  null,
     "PerRegionCap":  80,
     "RttCaps":  {
                     "OC":  450,
@@ -29,11 +29,11 @@
                      },
                      {
                          "Bucket":  "na",
-                         "Count":  1
+                         "Count":  0
                      },
                      {
                          "Bucket":  "eu",
-                         "Count":  8
+                         "Count":  1
                      },
                      {
                          "Bucket":  "oc",
@@ -60,20 +60,11 @@
                          "Count":  0
                      }
                  ],
-    "ByRegion":  [
-                     {
-                         "Region":  "EU",
-                         "Count":  9,
-                         "MedianRtt":  311,
-                         "MinRtt":  255,
-                         "MaxRtt":  1305
-                     },
-                     {
-                         "Region":  "NA",
-                         "Count":  1,
-                         "MedianRtt":  402,
-                         "MinRtt":  402,
-                         "MaxRtt":  402
-                     }
-                 ]
+    "ByRegion":  {
+                     "Region":  "EU",
+                     "Count":  1,
+                     "MedianRtt":  623,
+                     "MinRtt":  623,
+                     "MaxRtt":  623
+                 }
 }
