@@ -1,70 +1,52 @@
-﻿{
-    "GeneratedAt":  "2026-11-24T04:11:35.6362470+08:00",
-    "InputReport":  "E:\\VPN\\outputs\\quality-report.json",
-    "TotalAlive":  null,
-    "PerRegionCap":  80,
-    "RttCaps":  {
-                    "OC":  450,
-                    "SAM":  550,
-                    "EU":  450,
-                    "NEASIA":  null,
-                    "SAASIA":  400,
-                    "SEA":  300,
-                    "CF":  600,
-                    "ME":  500,
-                    "NA":  400
-                },
-    "ByBucket":  [
-                     {
-                         "Bucket":  "sea",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "neasia",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "sa-asia",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "na",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "eu",
-                         "Count":  1
-                     },
-                     {
-                         "Bucket":  "oc",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "me",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "sa",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "cf",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "other",
-                         "Count":  0
-                     },
-                     {
-                         "Bucket":  "asia",
-                         "Count":  0
-                     }
-                 ],
-    "ByRegion":  {
-                     "Region":  "EU",
-                     "Count":  1,
-                     "MedianRtt":  623,
-                     "MinRtt":  623,
-                     "MaxRtt":  623
-                 }
+{
+    "schema_version":  1,
+    "run_id":  "retest-current-reachable",
+    "total_nodes":  0,
+    "reachable_count":  14,
+    "sea_reachable_count":  0,
+    "by_bucket":  [
+                      {
+                          "bucket":  "sea",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "neasia",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "asia",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "eu",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "na",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "oc",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "me",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "sa",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "sa-asia",
+                          "count":  0
+                      },
+                      {
+                          "bucket":  "other",
+                          "count":  0
+                      }
+                  ],
+    "by_country":  [
+
+                   ]
 }

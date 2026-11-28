@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "run_id": "retest-current-reachable",
+  "generated_at": "2026-11-28T01:52:30Z",
+  "expires_at": "2026-11-29T13:52:30Z",
+  "probe_version": "probe-tls.py@sha256:c09532bb8530eebc0d260c4753b15d055fa90f0db50a6bf30af50e34d4ffd437",
+  "mihomo_version": "v1.19.34",
+  "mihomo_sha256": "3252ed9449c0e904fd07452b18366b90da77e14a5696e567de11d7839d6cf4b6",
+  "config_sha256": "3bde67bc03f1a7949c584e8f0a6babc217adfaec12ac7477a7b0f7b29c0d05ad",
+  "policy_version": "quality-v1",
+  "source_stats": [],
+  "candidate_count": 21,
+  "l1_alive_count": null,
+  "l2_tested_count": 21,
+  "l2_passed_count": 17,
+  "l3_verified_count": 0,
+  "counts_by_region": {},
+  "counts_by_protocol": {},
+  "fast_count": 0,
+  "sea_fast_count": 0,
+  "reachable_count": 14,
+  "sea_reachable_count": 0,
+  "reachable_min_mib_s": 0.1,
+  "reachable_note": "Reachable tier: candidates that passed L2 and carry traffic through a known exit country, published under their own file name. They are not quality verified and never enter the strict buckets.",
+  "files": {
+    "free-nodes-subscription.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-combined.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "regions.json": {
+      "bytes": 1553,
+      "sha256": "afc42505ceb674280b120f62dfb3a92b0373f8fc7894eb9204425a123ed71fb4"
+    },
+    "quality-report-summary.json": {
+      "bytes": 689,
+      "sha256": "93da854e2fa59c48a0e5cef101527fff35112f5ee180f04d9cf7ee188b958599"
+    },
+    "free-nodes-sea.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sea.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sea-reachable.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sea-reachable.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-reachable.b64": {
+      "bytes": 3892,
+      "sha256": "7aadf1219735709900c8fc8ccf2f1b218c306ac0948ecb2798609c3b476b6ad3"
+    },
+    "free-nodes-reachable.txt": {
+      "bytes": 2918,
+      "sha256": "69a66288bcd2da89fbc57d9ebc9078823ee5e28c73f50777c26169607ae2a06a"
+    },
+    "free-nodes-neasia.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-neasia.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-asia.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-asia.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-eu.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-eu.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-na.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-na.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-oc.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-oc.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-me.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-me.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sa.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sa.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sa-asia.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-sa-asia.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-other.b64": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "free-nodes-other.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "base_commit": "f362d16719fab3c515502913326821986afe702a",
+  "release_status": "candidate",
+  "payload_sha256": "2d41340a1d7362d7a1f4a93bcbd8ae3e1cc400a5a20a5e2e23bde914f7716b13",
+  "preserved_from_last_known_good": []
+}

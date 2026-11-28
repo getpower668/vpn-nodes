@@ -1,119 +1,39 @@
-﻿{
-    "GeneratedAt":  "2026-11-24T04:05:53.0930466+08:00",
-    "DurationMs":  290434,
-    "InputFile":  "E:\\VPN\\outputs\\_pool-merged.txt",
-    "ProbeMode":  "protocol-level",
-    "Total":  21105,
-    "Alive":  1739,
-    "Dead":  19366,
-    "ByProtocol":  [
-                       {
-                           "Proto":  "hysteria2",
-                           "Total":  405,
-                           "Alive":  0,
-                           "Dead":  405,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
-                       },
-                       {
-                           "Proto":  "ss",
-                           "Total":  4377,
-                           "Alive":  153,
-                           "Dead":  4224,
-                           "MedianRtt":  309,
-                           "MinRtt":  94,
-                           "MaxRtt":  14129
-                       },
-                       {
-                           "Proto":  "trojan",
-                           "Total":  1748,
-                           "Alive":  130,
-                           "Dead":  1618,
-                           "MedianRtt":  232,
-                           "MinRtt":  64,
-                           "MaxRtt":  2440
-                       },
-                       {
-                           "Proto":  "tuic",
-                           "Total":  1,
-                           "Alive":  0,
-                           "Dead":  1,
-                           "MedianRtt":  null,
-                           "MinRtt":  null,
-                           "MaxRtt":  null
-                       },
-                       {
-                           "Proto":  "vless",
-                           "Total":  7606,
-                           "Alive":  885,
-                           "Dead":  6721,
-                           "MedianRtt":  278,
-                           "MinRtt":  42,
-                           "MaxRtt":  4755
-                       },
-                       {
-                           "Proto":  "vmess",
-                           "Total":  6968,
-                           "Alive":  571,
-                           "Dead":  6397,
-                           "MedianRtt":  211,
-                           "MinRtt":  24,
-                           "MaxRtt":  6016
-                       }
-                   ],
-    "ByVerdict":  [
-                      {
-                          "Verdict":  "timeout",
-                          "Count":  14635
-                      },
-                      {
-                          "Verdict":  "tcp_fail",
-                          "Count":  2653
-                      },
-                      {
-                          "Verdict":  "real_server",
-                          "Count":  1065
-                      },
-                      {
-                          "Verdict":  "gfw_rst",
-                          "Count":  896
-                      },
-                      {
-                          "Verdict":  "bare_plain",
-                          "Count":  414
-                      },
-                      {
-                          "Verdict":  "tls_alert",
-                          "Count":  408
-                      },
-                      {
-                          "Verdict":  "udp_no_reply",
-                          "Count":  387
-                      },
-                      {
-                          "Verdict":  "cdn_edge",
-                          "Count":  368
-                      },
-                      {
-                          "Verdict":  "ss_unverified",
-                          "Count":  153
-                      },
-                      {
-                          "Verdict":  "tls_ok_nosan",
-                          "Count":  60
-                      },
-                      {
-                          "Verdict":  "tls_ok_nosni",
-                          "Count":  47
-                      },
-                      {
-                          "Verdict":  "udp_fail",
-                          "Count":  10
-                      },
-                      {
-                          "Verdict":  "udp_closed",
-                          "Count":  9
-                      }
-                  ]
+{
+  "GeneratedAt": "2026-11-28T01:41:28Z",
+  "DurationMs": 238222,
+  "InputFile": "subset.txt",
+  "ProbeMode": "protocol-level",
+  "Total": 21,
+  "Alive": 17,
+  "Dead": 4,
+  "ByProtocol": [
+    {
+      "Proto": "ss",
+      "Total": 11,
+      "Alive": 11,
+      "Dead": 0,
+      "MedianRtt": 913,
+      "MinRtt": 393,
+      "MaxRtt": 2112
+    },
+    {
+      "Proto": "vless",
+      "Total": 10,
+      "Alive": 6,
+      "Dead": 4,
+      "MedianRtt": 2160,
+      "MinRtt": 1130,
+      "MaxRtt": 4548
+    }
+  ],
+  "ByVerdict": [
+    {
+      "Verdict": "failed_node",
+      "Count": 4
+    },
+    {
+      "Verdict": "passed",
+      "Count": 17
+    }
+  ]
 }
